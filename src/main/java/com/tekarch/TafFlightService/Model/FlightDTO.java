@@ -1,13 +1,11 @@
 package com.tekarch.TafFlightService.Model;
-
 import lombok.Data;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
 public class FlightDTO {
-    private Long id;
+    private Long flight_id;
     private String flight_number;
     private String departure;
     private String arrival;
